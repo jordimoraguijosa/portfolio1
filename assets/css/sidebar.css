@@ -1,0 +1,36 @@
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -56px;
+    width: 56px;
+    height: 100%;
+    z-index: 999;
+    transition-property: width;
+    transition: .2s;
+    opacity: 0.9;
+}
+
+#btn-box {
+    position: fixed;
+    top: 0;
+    left: 10px;
+    z-index: 999;
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+#sidebar div {
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-icon {
+    color: #6c757d;
+}
